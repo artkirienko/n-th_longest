@@ -27,7 +27,6 @@ and n > 0 always.
 
         $ docker run n-th_longest
 
-
 ## Запуск (без Docker)
 
 1. Скомпилировать:
