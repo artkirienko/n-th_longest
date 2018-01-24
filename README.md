@@ -11,9 +11,23 @@ and n > 0 always.
 
 ## Требования
 
+        Docker
+
+или
+
         g++ (or any other C++11 compiler), iostream, string, vector, queue, utility
 
-## Запуск
+## Запуск (через Docker)
+
+1. Собрать образ:
+
+        $ docker build -t n-th_longest .
+
+2. Запустить:
+
+        $ docker run n-th_longest
+
+## Запуск (без Docker)
 
 1. Скомпилировать:
 
@@ -27,4 +41,3 @@ and n > 0 always.
 
 Результат работы содержит информацию о начальных значениях и окончательный
 ответ.
-
